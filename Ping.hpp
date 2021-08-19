@@ -1,3 +1,6 @@
+#ifndef PING_H
+#define PING_H
+
 #include <string>
 
 namespace Ping
@@ -14,3 +17,5 @@ namespace Ping
   // Must be Close()d before program exits.
   void Close();
 }
+
+#endif
